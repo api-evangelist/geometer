@@ -1,7 +1,24 @@
 aid: geometer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geometer.png
 name: Geometer
-description: Geometer is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Geometer is a San Francisco-based business incubator that builds and launches innovative,
+  technology-driven companies. It provides founding leadership, physical facilities, guidance, camaraderie,
+  and funding to early-stage teams building game-changing products, in San Francisco and around the world.
+  Geometer operates as a company studio and accelerator rather than a software vendor; as of this profile
+  it publishes no public developer platform, API, SDK, or technical documentation. It was surfaced through
+  the Bloomberg Beta portfolio graph and added to the API Evangelist network as a company lead. Contact is
+  via contact@geometer.io, and the studio is located at 530 Jackson St, 3F, San Francisco, CA 94133.
 url: https://raw.githubusercontent.com/api-evangelist/geometer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,18 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Incubator
+- Accelerator
+- Startup Studio
+- Venture
+- San Francisco
+- Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/geometer-domain-security.yml
 - type: Website
   url: https://geometer.io/
+- type: Contact
+  url: mailto:contact@geometer.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

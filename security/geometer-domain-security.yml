@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: geometer.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 19 22:14:55 2026 GMT
+  hsts: false
+domains:
+- domain: geometer.io
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
